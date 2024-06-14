@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.degrade {
+    background-image: linear-gradient(to right, #d95c70, #a159b9);
+}
+
+.fundo {
+    background: url(imagens/capa.png);
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header h1 {
+    color: white;
+    font-size: 4em;
+    margin: 40px 0px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+#navegacao a {
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+#navegacao a:hover {
+    background-image: linear-gradient(to right, #d95c7179, #a159b977);
+}
+
+#section-fotos {
+    min-height: 100vh;
+}
+
+#section-fotos h1, #section-fotos h2 {
+    color: #8252f3;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#section-fotos h2 {
+    background-image: linear-gradient(to right, #8252f338, white);
+}
+
+#section-fotos img {
+    margin: 10px;
+}
+
+#facil h2 {
+    color: #89cecd;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#facil p {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    font-size: 1.1em;
+}
+
+#redes-sociais a {
+    display: inline;
+}
